@@ -1,6 +1,5 @@
 import Link from 'next/link';
 
-
 export default function Login() {
   return (
     <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-purple-600 via-blue-500 to-pink-500">
@@ -37,7 +36,7 @@ export default function Login() {
           </button>
         </form>
         <p className="text-sm text-center text-gray-300">
-          Don't have an account?{" "}
+          Don&#39;t have an account?{" "}
           <Link href="component/signup">Sign up</Link>
         </p>
       </div>
