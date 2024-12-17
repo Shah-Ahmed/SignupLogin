@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 export default function Login() {
   return (
@@ -37,7 +37,7 @@ export default function Login() {
         </form>
         <p className="text-sm text-center text-gray-300">
           Don't have an account?{" "}
-          <Link href="/signup">Sign up</Link>
+          <Link href="component/signup">Sign up</Link>
         </p>
       </div>
     </div>
