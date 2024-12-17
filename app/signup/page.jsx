@@ -43,7 +43,7 @@ export default function Signup() {
             type="submit"
             className="w-full px-4 py-2 font-bold text-white transition duration-300 bg-pink-500 rounded-lg hover:bg-gradient-to-r hover:from-yellow-500 hover:via-red-500 hover:to-pink-500"
           >
-            Sign Up
+            SignUp
           </button>
         </form>
         <p className="text-sm text-center text-gray-300">
